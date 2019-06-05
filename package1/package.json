@@ -1,0 +1,10 @@
+{
+  "name": "package1",
+  "version": "0.0.1",
+  "bin": {
+    "foo": "./build/foo.js"
+  },
+  "scripts": {
+    "prepare": "mkdir build && touch build/foo.js"
+  }
+}
